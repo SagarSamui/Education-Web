@@ -1,0 +1,993 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.icons i{
+    font-size: 25px;
+    border: solid black 2px;
+    padding: 8px;
+   margin-top: 8px;
+   color:  #f1c40f;
+}
+.nav-containt{
+    margin-left: 5px;
+}
+.nav-containt h3{
+    margin-top: 2px;
+    color:  #f1c40f;
+}
+.nav-containt p{
+    font-size: 14px;
+    
+}
+.nav-iteams ul{
+    padding: 20px 0;
+    margin: 0;
+}
+.nav-iteams ul li{
+    list-style: none;
+}
+.nav-iteams ul li a{
+      text-decoration: none;
+      padding: 0 10px;
+      color: black;
+      background: transparent;
+
+}
+.nav-iteams ul li a:hover{
+    color: #f1c40f;
+    transition: 0.3s;
+}
+
+/* /////////////////////// banner part starts here /////////////////////// */
+.banner-card{
+    margin-bottom: 10px;
+}
+.banner{
+    padding-bottom:80px ;
+}
+.banner-container{
+    width: 100%;
+    height: 100%;
+    background: url(./images/cherrydeck-rMILC1PIwM0-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    padding-top: 80px;
+    position: relative;
+
+}
+.banner-container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    
+    background: rgba(0,0,0,0.6);
+}
+.banner h3{
+    color: #fff;
+    position: relative;
+}
+.banner h1{
+    color: #f1c40f;
+    position: relative;
+}
+.banner p{
+    padding-right: 500px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+.banner-button #Yellow{
+    background: #f1c40f;
+    outline: none;
+    padding: 5px 20px;
+    border: none;
+    font-size: 14px;
+    position: relative;
+    border: solid #f1c40f 3px;
+}
+.banner-button .btnn2{
+    outline: none;
+    padding: 5px 20px;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    border: solid white 3px;
+    color: white;
+    position: relative;
+}
+/* ///////////////////Banner card////////////////// */
+.cards{
+    background: rgba(0,0,0,0.80);
+    position: relative;
+    padding: 20px;
+}
+
+.card-contain{
+    
+    margin-right: 10px;
+    
+}
+.cards .card-contain h6{
+    margin-bottom: 0;
+    margin-bottom: 5px;
+    position: relative;
+    
+    color: white;
+}
+.carde .card-contain h6{
+    margin-bottom: 0;
+    margin-bottom: 5px;
+    position: relative;
+    
+    color: black;
+}
+.card-contain i{
+    display: block;
+    color: #f1c40f;
+    position: relative;
+    margin-right: 10px;
+    font-size: 40px;
+    line-height: -20;
+}
+.cards p{
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+
+}
+.carde p{
+    font-size: 14px;
+    position: relative;
+    color: #000;
+
+}
+.carde{
+    background: #f1c40f;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 0;
+    
+}
+.carde i{
+    color: #000;
+}
+
+
+
+
+/* /////////////////////////////////     Section-1-card    //////////////////////////////// */
+
+
+
+ .Section-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 90px 0 90px;
+}
+ .Section-heading .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .Section-heading .heading .h2-1{
+    color: #f1c40f;
+    margin-right: 5px;
+}
+
+.section1 .Section-heading .Section1-icon .angle-left{
+    padding: 5px 15px;
+    background: #f1c40f;
+    color: #fff;  
+}
+.section1 .Section-heading .Section1-icon .angle-right{
+    padding: 5px 15px;
+    background: black;
+    color: #fff;   
+}
+.section1 #section1-containt p{
+   padding:0 300px 0 90px ;
+   font-size: 14px;
+}
+
+.section1 .Section1-card .card-upper1 {
+    background: url(./images/austin-distel-va_Opp86kfQ-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section1 .Section1-card .card-upper2 {  
+    background: url(./images/Side\ Site.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .Section1-card .card-upper3 {
+    background: url(./images/Side\ Site\ 2.jpg) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .Section1-card .card-upper1,
+.section1 .Section1-card .card-upper2,
+.section1 .Section1-card .card-upper3
+{
+    padding-top: 130px;
+}
+.section1 .Section1-card .card-upper-containt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .Section1-card  .card-upper-containt .card-icon i{
+    font-size: 25px;
+    padding:  15px;
+    margin-bottom: 0;
+    
+
+}
+.section1 .Section1-card  .card-upper-containt .card-icon{
+    background: #f1c40f;
+    height: 100%;
+    background-size:cover ;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.Section1-card  .card-upper-containt .card-text h6{
+    margin-bottom: 0;
+    padding-right: 30px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+.section1 .Section1-card  .card-upper-containt {
+    background: rgba(0,0,0,0.6);
+}
+
+
+.card-abdomain {
+    background: rgb(233, 230, 230);
+}
+
+
+.card-abdomain  .card-center{
+    padding: 5px 20px;
+    font-size: 14px;  
+}
+
+
+.card-abdomain  .card-bottom{
+    display: flex;
+    border-top:  1px solid rgb(156, 151, 151);
+    align-items: center;
+
+}
+
+
+.card-abdomain .card-bottom .left-part {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    text-align: center;
+   padding: 10px;
+    margin-bottom: 0;
+    border-right:  1px solid rgb(156, 151, 151);
+}
+
+
+.card-abdomain .card-bottom .left-part i{
+    outline: 1px;   
+}
+
+.card-abdomain .card-bottom .center-part {
+    width: 100%;
+    height: 100%;
+  
+    border: none;
+}
+.card-abdomain .card-bottom .center-part button{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-right:  1px solid rgb(156, 151, 151);
+}
+.card-abdomain .card-bottom .center-part button:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+
+.card-abdomain .card-bottom .right-part{
+ text-align: center;
+ width: 100%;
+ height: auto;  
+ background: #f1c40f;
+ padding: 11px;
+ font-size: 15px;
+}
+
+/* ////////////////////////-Section2//////////////////////////// */
+
+.section-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+
+    
+}
+
+.section-2 .section2-left{
+    width: 100%;
+    height:100%;
+    padding: 35px 0;
+}
+
+.section-2 .section2-left::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.90);
+}
+.section-2 .section2-left {
+    background: url(./images/austin-distel-wD1LRb9OeEo-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.section-2 .section2-left .section2-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.section-2 .section2-left .section2-heading #Section-2-h21 {
+    padding-right: 10px;
+    color: #fff;
+
+}
+
+.section-2 .section2-left .section2-heading #Section-2-h22
+{
+ color: #f1c40f;
+}
+
+#section-left-p {
+    position: relative;
+    padding: 0 60px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.section-inputes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-inputes .section-input-top {
+    padding-right: 15px;
+}
+.section-inputes .section-input-top .from-group,
+.section-inputes .section-input-bottom .from-group{
+    margin-bottom: 15px;
+
+}
+.section-inputes .section-input-top .from-group #input,
+.section-inputes .section-input-bottom .from-group #input{
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    
+}
+.section-2 .section2-left-button{
+    position: relative;
+    margin-bottom: 2.5rem;
+    margin-top: 0.60rem;
+}
+.section-2 .section2-left-button button{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: #000;
+    background: #f1c40f;
+    font-size: 12px;
+}
+
+.section2-right{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   background: url(./images/campaign-creators-gMsnXqILjp4-unsplash.jpg) no-repeat top center;
+   background-size: cover;
+   position: relative;
+   padding: 93px 0;
+}
+.section2-right::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;   
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(241, 196, 15,0.93);
+    
+}
+
+
+
+.section2-right .section2-right-heading h5{
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px ;
+}
+
+.section2-right .section2-right-heading p{
+    font-size: 14px;
+    position: relative;
+    color: #000;
+}
+
+.section-2 .section2-icons-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .section2-icons-container .section2-icons{
+    margin: 0 5px;
+    border: 2px solid #fff;
+}
+.section-2 .section2-icons-container .section2-icons #number .number{
+    font-size: 40px;
+    padding: 10px 5px;
+}
+
+#number1,
+#number2,
+#number3,
+#number4{
+    padding:  20px !important;
+}
+
+/* ////////////////////////////////////Section3-starts/////////////////////////////////////// */
+
+
+.section3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding:0 80px ;
+
+
+}
+.section3-First-haifl{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    
+}
+.section3-First-haifl img{
+    padding-top: 40px;
+}
+.section3-second-half{
+    width: 100%;
+    height: 100%;
+
+}
+
+.section3 .section3-heading{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+
+}
+
+.section3 .section3-heading .h-2{
+    color: #f1c40f;
+}
+.section3 .section-3-p p{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+    padding: 0 20px;
+
+}
+.section3-second-half .section3-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section3-second-half .section3-options .blocks{
+    text-align: center;
+    margin-right: 5px;
+
+}
+.section3-second-half .section3-options .blocks .icon{
+    color: #f1c40f;
+
+}
+.section3-second-half .section3-options .blocks .icon-content{
+    font-size: 14px;
+    
+}
+.section3-second-half .section3-options .blocks .icon-content p{
+   width: 100%;
+}
+
+/* //////////////////////////////////Section4-starts////////////////////////////////////////// */
+
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    gap: 130px;
+    background: #eec628;
+}
+.section4-containts .section4-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section4-containts .section4-box .section4-box-icon{
+    font-size: 40px;
+    padding-right: 15px;
+}
+.section4-containts .section4-box .type-number h5{
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+.section4-containts .section4-box .type-number span{
+    font-size: 30px;
+}
+
+
+
+/* ////////////////////////////////////////////Section5/////////////////////////////////////////////////// */
+
+
+.section5{
+    padding: 50px 0;
+}
+
+.section5-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0  20px 0;
+    font-size: 30px;
+}
+
+.section5-heading span:nth-child(1){
+    color: #f1c40f;
+    margin-right: 10px;
+}
+
+.section5-p{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.section5-img-container .main-line-one{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-line-one .line-one{
+    width: 300px;
+    /* height: 100%; */
+    margin-right: 20px;
+    padding: 20px 0;
+}
+
+.main-line-one .line-one:hover .icon{
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.main-line-one .line-one .icon{
+    background: rgba(223, 184, 25, 0.909);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    opacity: 0;
+}
+
+.main-line-one .line-one:nth-child(1){
+    background: url(./images/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+}
+.main-line-one .line-one:nth-child(2){
+    background: url(./images/cherrydeck-rMILC1PIwM0-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+
+}
+.main-line-one .line-one:nth-child(3){
+    background: url(./images/c-d-x-85XLV4Po2mk-unsplash.jpg) no-repeat top center;
+    background-size: cover;
+
+}
+
+
+
+/* ///////////////////////////////////////section6//////////////////////////////////////// */
+
+.section6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section6 .first-half{
+    width: 100%;
+}
+
+.section6 .first-half .img img{
+    width: 100%;
+}
+
+.section6 .second-half{
+    width: 100%;
+    height: 100%;
+    padding: 225px 0;
+    background: url(./images/graphic-design-geometric-wallpaper_52683-34399.webp) no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+
+.section6 .second-half .box{
+    width: 90%;
+    padding: 30px;
+    background: rgb(31, 30, 30);
+    color: #fff;
+    box-shadow: 1px 1px 8px grey;
+    position: absolute;
+    left: -200px;
+    top: 140px;
+}
+
+.second-half .box .encount{
+    color: #f1c40f;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.second-half .box .Feedback{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* section7 */
+
+
+.section7{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    flex-direction: row;
+    padding: 20px 180px ;
+    background: url(./images/depositphotos_81228994-stock-illustration-fast-food-doodles-hand-drawn.jpg)  no-repeat top center;
+    background-size: cover;
+    position: relative;
+}
+
+.section7::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(42, 42, 42,0.8);
+}
+
+.section7 .left-side{
+    text-align: left;
+    position: relative;
+    z-index: 1
+}
+
+.heading .one
+{
+    color: #eec628;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.heading .two{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.section7 .left-side .heading{
+
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+
+}
+
+.section7 .button button{
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;
+}
+
+
+/* ..................................section8............................ */
+
+.section8{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: url(./images/cherrydeck-rMILC1PIwM0-unsplash.jpg) no-repeat top center;
+    background-size:cover ;
+    position: relative;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+
+.section8::before{
+    content: "";
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(16, 15, 15,0.9);
+}
+
+
+.section8 .first{
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 5;
+}
+
+
+.section8 .first i{
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    margin-right: 15px;    
+}
+
+.section8 .first .upper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   position: relative;
+    margin-bottom: 10px;        
+}
+
+.section8 .first .upper span:nth-child(2){
+    color: #f1c40f;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.section8 .first .middle{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;        
+}
+
+.section8 .first .lower{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;        
+
+}
+
+.section8 .second{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.section8 .second .head h3{
+    color: #f1c40f;
+}
+
+.section8 .second .link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start ;
+}
+
+.section8 .second .link span a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0;
+}
+
+.section8 .second .link span a:hover{
+    color: #eec628;
+    transition: 0.5s;
+}
+
+.section8 .third{
+    width: 100%;
+    color: #f1c40f;
+    position: relative;
+    z-index: 5;
+}
+
+.section8 .third .imgs{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section8 .third .imgs .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section8 .third .imgs img{
+    width: 100px;
+    height: 80px;
+    margin: 0 10px 10px 0;
+}
+
+.section8 .fourth{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+}
+
+.section8 .fourth .head{
+    color: #f1c40f;
+}
+
+.fourth .in{
+    background: #fff;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.fourth .in input{
+    border: none;
+    outline: none;
+    padding: 5px 0;
+}
+
+.fourth .in button{
+    border: none;
+    outline: none;
+    background: #f1c40f;
+    padding: 5px 5px;
+}
+
+
+/* ..............................section9.............................. */
+
+
+.section9 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(16, 15, 15);
+    padding: 10px;
+    color: white;
+}
+
+.section9 .left p{
+    margin-bottom: 0    ;
+}
+
+.section9 .left i{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.section9 .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section9 .right ul{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section9 .right ul li{
+    list-style: none;
+}
+
+.section9 .right ul a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
